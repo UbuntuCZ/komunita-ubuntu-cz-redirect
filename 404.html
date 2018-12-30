@@ -1,0 +1,14 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <title>Přesměrování&hellip;</title>
+  <script>
+    const pathStart = window.location.href.indexOf('/', 'https://'.length) + {{ site.baseurl | size }};
+    const path = window.location.href.substring(pathStart).replace(/^\//i, '');
+    window.location.href = `{{ site.targetHost }}/${path}`;
+  </script>
+  <h1>Přesměrování&hellip;</h1>
+  <p>Pokud nedošlo k přesměrování, <a href="{{ site.targetHost }}">klikněte zde</a>.</p>
+</html>

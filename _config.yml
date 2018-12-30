@@ -1,0 +1,8 @@
+targetHost: http://wiki.ubuntu.cz
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md

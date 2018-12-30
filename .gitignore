@@ -1,0 +1,6 @@
+.bundle
+.sass-cache
+_site
+vendor
+*.gem
+Gemfile.lock
