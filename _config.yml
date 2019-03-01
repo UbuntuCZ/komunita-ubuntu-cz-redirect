@@ -1,4 +1,4 @@
-targetHost: http://wiki.ubuntu.cz
+targetHost: https://wiki.ubuntu.cz
 
 # Build settings
 exclude:
